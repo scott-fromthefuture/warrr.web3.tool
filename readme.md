@@ -5,7 +5,7 @@
 
 This app is a interface for interacting with the wARRR contracts on both the Binance Smart Chain and Ethereum networks. Stake, unstake, and claim rewards, also provides useful links related to wARRR. This was made specifically for the MetaMask browser extension and hasn't been tested with other wallets.
 
-Consists of a single monolithic HTML/JavaScript file - `warrr_tool.html`, making it easy to review teh client side code. 
+Consists of a single monolithic HTML/JavaScript file - `warrr_tool.html`, making it easy to review the client side code. 
 
 External requests are limited to one. No special fonts, jQuery, or external resources used. All images are inline SVGs. The external request is made to fetch `web3.js`, a TypeScript implementation of the Ethereum JSON RPC API and related tooling, maintained by ChainSafe Systems and hosted on [jsDeliver](https://www.jsdelivr.com/package/gh/ethereum/web3.js "jsDeliver") - a free CDN for open source projects. All communication is otherwise directly via the web3 wallet.
 
