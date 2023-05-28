@@ -24,7 +24,7 @@ For those who prefer not to run the script locally, the app can simply be access
 
 ## Using App Locally
 
-The `warrr_tool.html` file can be downloaded from this repository and used locally. To function correctly, **Web3 HTML files need to be served from a web server**. This is because they require *web3 injection into the browser*, which can't occur if the files are opened directly from your local drive in a browser. 
+The `warrr_tool.html` file can be downloaded from [this repoitory](https://github.com/scott-ftf/warrr.web3.tool) and used locally. To function correctly, **Web3 HTML files need to be served from a web server**. This is because they require *web3 injection into the browser*, which can't occur if the files are opened directly from your local drive in a browser. 
 
 In a Linux operating system, for example, you can create a local server using the following command from the same directory as `warrr_tool.html`: 
 
