@@ -7,9 +7,9 @@ This app is a interface for interacting with the wARRR contracts on both the Bin
 
 <hr />
 
-This app is entirely client-side, making it accessible for anyone to review the code. It consists of a single, monolithic HTML/JavaScript file - `warrr_tool.html`. This file can be downloaded from [this repoitory](https://github.com/scott-ftf/warrr.web3.tool) and run locally, or accessed online via a browser.
+This app is client-side, making it accessible for anyone to review the code. It consists of a single monolithic HTML/JavaScript file - `warrr_tool.html`. This file can be downloaded from [this repoitory](https://github.com/scott-ftf/warrr.web3.tool) and run locally, or accessed online via a browser.
 
-Only one external request is made. There are no special fonts, jQuery, or external resources used. All images are inline SVGs. The external request is made to fetch `web3.js`, a TypeScript implementation of the Ethereum JSON RPC API and related tooling, maintained by ChainSafe Systems and hosted on [jsDeliver](https://www.jsdelivr.com/package/gh/ethereum/web3.js "jsDeliver") - a free CDN for open source projects. All communicatin is otherwise directly via the web3 wallet.
+Only one external request is made. No special fonts, jQuery, or external resources used. All images are inline SVGs. The external request is made to fetch `web3.js`, a TypeScript implementation of the Ethereum JSON RPC API and related tooling, maintained by ChainSafe Systems and hosted on [jsDeliver](https://www.jsdelivr.com/package/gh/ethereum/web3.js "jsDeliver") - a free CDN for open source projects. All communication is otherwise directly via the web3 wallet.
 
 
 ## Accessing Online
@@ -28,7 +28,9 @@ In a Linux operating system, for example, you can create a local server using th
 python3 -m http.server --bind 127.0.0.1 7777
 ```
 
-This command will serve your files at localhost (127.0.0.1) on port 7777.
+This command will serve the app at localhost (127.0.0.1) on port 7777.<br />
+[http://127.0.0.1:7777/warrr_tool.html](http://127.0.0.1:7777/warrr_tool.html)
+
 
 
 ## ⚠️ Note to All Users: Carefully Review All MetaMask Prompts
