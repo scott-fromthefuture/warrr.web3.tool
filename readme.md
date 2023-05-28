@@ -17,7 +17,7 @@ To maximize privacy, the app makes only one external request. There are no speci
 ## Accessing Online
 
 For those who prefer not to run the script locally, the app can simply be accessed online here with a browser:
-https://github.com/scottfromthefuture/warrr.web3.tool/warrr_tool.html
+https://scott-fromthefuture.github.io/warrr.web3.tool/warrr_tool
 
 ## Using App Locally
 
