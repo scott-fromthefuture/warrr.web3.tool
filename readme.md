@@ -35,4 +35,4 @@ This command will serve the app at localhost (127.0.0.1) on port 7777.<br />
 
 This tool cannot alter your balances on its own. It only sends requests to the web3 wallet. Always check the fees, amounts, and destination addresses in each wallet prompt carefully before approval. 
 
-This project is not supported or maintained, so please use at our own risk.
+### _This project is not supported or maintained, so please use at our own risk._ 
