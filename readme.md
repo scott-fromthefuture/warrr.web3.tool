@@ -12,9 +12,9 @@ The wARRR Web3 tool is a simple interface for interacting with the wARRR contrac
 
 ## Features
 
-The wARRR Web3 tool is open-source and entirely client-side, making it accessible for anyone to review the code. The application consists of a single, monolithic HTML/JavaScript file - `warrr_tool.html`. This file can be downloaded from this repository and run locally, or simply accessed online via a browser.
+The wARRR Web3 tool is open-source and entirely client-side, making it accessible for anyone to review the code. The application consists of a single, monolithic HTML/JavaScript file - `warrr_tool.html`. This file can be downloaded from [this repoitory](https://scott-ftf.github.io/warrr.web3.tool/warrr_tool) and run locally, or simply accessed online via a browser.
 
-To maximize privacy, the app makes only one external request. There are no special fonts, jQuery, or external resources used. All images are inline SVGs. The singular external request is made to fetch `web3.js`, a TypeScript implementation of the Ethereum JSON RPC API and related tooling, maintained by ChainSafe Systems and hosted on jsDelivr - a free CDN for open source projects. Learn more [HERE](https://www.jsdelivr.com/package/gh/ethereum/web3.js "HERE").
+To maximize privacy, the app makes only one external request. There are no special fonts, jQuery, or external resources used. All images are inline SVGs. The singular external request is made to fetch `web3.js`, a TypeScript implementation of the Ethereum JSON RPC API and related tooling, maintained by ChainSafe Systems and hosted on [jsDeliver](https://www.jsdelivr.com/package/gh/ethereum/web3.js "jsDeliver") - a free CDN for open source projects.
 
 ## Accessing Online
 
