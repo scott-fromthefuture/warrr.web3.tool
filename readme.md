@@ -1,6 +1,3 @@
-### _⚠️ This project is not supported or maintained. Use at your own risk._ 
-
----
 
 ![](https://i.imgur.com/0tB0nNn.png)
 
@@ -37,4 +34,6 @@ This command will serve your files at localhost (127.0.0.1) on port 7777.
 
 ## ⚠️ Note to All Users: Carefully Review All MetaMask Prompts
 
-This tool cannot alter your balances on its own. It only sends requests to the web3 wallet. Always check the fees, amounts, and destination addresses in each wallet prompt carefully before approval. This should be a standard procedure when interacting with *any* web3 app.
+This tool cannot alter your balances on its own. It only sends requests to the web3 wallet. Always check the fees, amounts, and destination addresses in each wallet prompt carefully before approval. 
+
+This project is not supported or maintained, so please use at our own risk.
