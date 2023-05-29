@@ -12,6 +12,8 @@ body, html {
   background-color: #333;
   color: #fff;
   font-family: 'Comforta','Poppins', Verdana, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 .logo {
   margin: auto;
@@ -248,10 +250,10 @@ ul,li {
   display: block;
   margin-bottom: 40px;
 }
-.ttt p {
+.ttt_title {
   margin-top:30px;
   margin-bottom: 20px;
-  text-align: left;
+  text-align: center;
 }
 .ttt li {
   display: list-item;
@@ -1348,8 +1350,8 @@ async function confirmStake(chainId) {
   } else {
     const messageHTML = `
       <p class="alert">You currently have 0 wARRR-LP available to stake</p>
+      <p class="ttt_title">Things to try:</p>
       <ol class="ttt">
-        <p>Things to try:</p>
         <li>Check Address and Network are correct</li>
         <li>Add liquidity to the liquidity pool in exchange for wARRR-LP which can be staked to earn rewards</li>
       </ol>
@@ -1432,9 +1434,8 @@ async function confirmUnstake(chainId) {
   } else {
     let messageHTML = `
       <p class="alert">You currently have 0 wARRR-LP staked</p>
-
-      <ol class="ttt">
-        <p>Things to try:</p>
+      <p class="ttt_title">Things to try:</p>
+      <ol class="ttt">        
         <li>Check Address and Network are correct</li>
         <li>Stake wARRR-LP after providing liquidity</li>
       </ol>
@@ -1510,8 +1511,8 @@ async function confirmClaimReward(chainId) {
   } else {
     let messageHTML = `
       <p class="alert">You currently have 0 rewards earned</p>
+      <p class="ttt_title">Things to try:</p>
       <ol class="ttt">
-        <p>Things to try:</p>
         <li>Check Address and Network are correct</li>
         <li>Stake wARRR-LP to begin earning rewards after providing liquidity.</li>
       </ol>
