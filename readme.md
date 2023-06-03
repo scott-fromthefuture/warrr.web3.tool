@@ -3,6 +3,8 @@
 
 # wARRR Web3 Tool
 
+>*NOTE: This project is not officially supported by Pirate Chain. This was a personal project created for my own interests which is open and free to use. Please see the note at the bottom of this readme*
+
 This app is a interface for interacting with the wARRR contracts on both the Binance Smart Chain and Ethereum networks. Stake, unstake, and claim rewards, also provides useful links related to wARRR. This was made specifically for the MetaMask browser extension and hasn't been tested with other wallets.
 
 Consists of a single monolithic HTML/JavaScript file - `warrr_tool.html`, making it easy to review the client side code. 
@@ -33,6 +35,6 @@ This command will serve the app at localhost (127.0.0.1) on port 7777.<br />
 
 ## ⚠️ Note to All Users: Carefully Review All MetaMask Prompts
 
-This tool cannot alter your balances on its own. It only sends requests to the web3 wallet. Always check the fees, amounts, and destination addresses in each wallet prompt carefully before approval. 
+>This tool cannot alter your balances on its own. It only sends requests to the web3 wallet. Always check the fees, amounts, and destination addresses in each wallet prompt carefully before approval. 
 
 ### _This project is not supported or maintained, so please use at our own risk._ 
